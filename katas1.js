@@ -134,8 +134,11 @@ function squareNumbersBackwards() {
    /* Your code goes below
   Write a for or a while loop
   return the result */
+  let numerosquadrados = []
+  for (let num = 1; num <= 10; num++){
+numerosquadrados.push(num*num)
+  }
   let resultado10 = []
-  const numerosquadrados = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
   for (let num = numerosquadrados.length-1; num > 0; num--){
 resultado10.push(numerosquadrados[num])
   } 
