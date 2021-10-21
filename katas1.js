@@ -135,14 +135,10 @@ function squareNumbersBackwards() {
   Write a for or a while loop
   return the result */
   let numerosquadrados = []
-  for (let num = 1; num <= 10; num++){
-numerosquadrados.push(num*num)
+  for (let num = 10; num > 0; num--){
+   numerosquadrados.push(num*num)
   }
-  let resultado10 = []
-  for (let num = numerosquadrados.length-1; num > 0; num--){
-resultado10.push(numerosquadrados[num])
-  } 
-  return resultado10;
+  return numerosquadrados
 }
 console.log(squareNumbersBackwards())
 //call function squareNumbersBackwards
